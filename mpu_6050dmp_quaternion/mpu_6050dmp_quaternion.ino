@@ -219,6 +219,20 @@ void setup()
     Serial.begin(115200);
     Wire.begin();
 
+    pinMode(flexSensorPin, INPUT);
+    pinMode(flexSensorPin2, INPUT);
+    pinMode(flexSensorPin3, INPUT);
+    pinMode(flexSensorPin4, INPUT);
+  
+    pinMode(indexMotorPin, OUTPUT);
+    digitalWrite(indexMotorPin, LOW);
+    pinMode(middleMotorPin, OUTPUT);
+    digitalWrite(middleMotorPin, LOW);
+    pinMode(ringMotorPin, OUTPUT);
+    digitalWrite(ringMotorPin, LOW);
+    pinMode(thumbMotorPin, OUTPUT);
+    digitalWrite(thumbMotorPin, LOW);
+
     error = MPU6050_read (MPU6050_WHO_AM_I, &c, 1);
     error = MPU6050_read (MPU6050_PWR_MGMT_2, &c, 1);
     MPU6050_write_reg (MPU6050_PWR_MGMT_1, 0);
@@ -312,6 +326,14 @@ void loop() {
     // Update the saved data with the latest values
     set_last_read_angle_data(t_now, angle_x, angle_y, angle_z, unfiltered_gyro_angle_x, unfiltered_gyro_angle_y, unfiltered_gyro_angle_z);
     
+    Serial.print(analogRead(flexSensorPin)); // A0  
+    Serial.print(","); //delimiter
+    Serial.print(analogRead(flexSensorPin2)); // A1
+    Serial.print(","); //delimiter
+    Serial.print(analogRead(flexSensorPin3)); // A2
+    Serial.print(","); //delimiter
+    Serial.print(analogRead(flexSensorPin4)); // A3
+    Serial.print(","); //delimiter
     Serial.print(angle_x);
     Serial.print(",");
     Serial.print(angle_y);
@@ -366,6 +388,12 @@ void loop() {
            Serial.println(",");
         }
     }
+
+  String message = Serial.readStringUntil('~');
+  ChooseVibrationType(indexMotorPin, message[0]);
+  ChooseVibrationType(middleMotorPin, message[1]);
+  ChooseVibrationType(ringMotorPin, message[2]);
+  ChooseVibrationType(thumbMotorPin, message[3]);
 }
 
 
