@@ -1,0 +1,1814 @@
+fileFormatVersion: 2
+guid: 7365d78afce90da40addd9b7c10a02f7
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: animations
+    100002: Bone003
+    100004: Bone004
+    100006: Bone005
+    100008: BoneArm
+    100010: BoneHand
+    100012: BoneIndexBase
+    100014: BoneIndexEnd
+    100016: BoneIndexMid
+    100018: BoneMiddleBase
+    100020: BoneMiddleBaseEnd
+    100022: BoneMiddleMid
+    100024: BonePinkyBase
+    100026: BonePinkyEnd
+    100028: BonePinkyMid
+    100030: BoneRingBase
+    100032: BoneRingEnd
+    100034: BoneRingMiddle
+    100036: BoneWristRoll
+    100038: //RootNode
+    100040: newArm
+    400000: animations
+    400002: Bone003
+    400004: Bone004
+    400006: Bone005
+    400008: BoneArm
+    400010: BoneHand
+    400012: BoneIndexBase
+    400014: BoneIndexEnd
+    400016: BoneIndexMid
+    400018: BoneMiddleBase
+    400020: BoneMiddleBaseEnd
+    400022: BoneMiddleMid
+    400024: BonePinkyBase
+    400026: BonePinkyEnd
+    400028: BonePinkyMid
+    400030: BoneRingBase
+    400032: BoneRingEnd
+    400034: BoneRingMiddle
+    400036: BoneWristRoll
+    400038: //RootNode
+    400040: newArm
+    4300000: newArm
+    7400000: hand_beckon
+    7400002: hand_claw
+    7400004: hand_spread
+    7400006: hand_unspread
+    7400008: hand_hold_lantern
+    7400010: hand_hold_gun
+    7400012: hand_fire_gun
+    7400014: hand_turn_handle
+    7400016: hand_pickup
+    7400018: hand_allAnimations
+    7400020: hand_pose_cupped
+    7400022: hand_to_bow_string_grasp
+    7400024: hand_bow_string_grasp
+    7400026: hand_hold_stick
+    7400028: hand_hold_flashlight
+    7400030: hand_walk_motion
+    7400032: hand_running_motion
+    7400034: hand_idle_motion
+    7400036: hand_punch
+    7400038: hand_reload_magazine
+    7400040: hand_remove_magazine
+    7400042: hand_strike_with_stick
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: newArm
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: defaultMat
+    second: {fileID: 2100000, guid: e2070e922ac17b741a094ca1d90ea02a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Hips' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.2
+    animationPositionError: 0.2
+    animationScaleError: 0.2
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: hand_beckon
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_claw
+      takeName: Take 001
+      firstFrame: 135
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_spread
+      takeName: Take 001
+      firstFrame: 185
+      lastFrame: 215
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_unspread
+      takeName: Take 001
+      firstFrame: 216
+      lastFrame: 242
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_hold_lantern
+      takeName: Take 001
+      firstFrame: 274
+      lastFrame: 320
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_hold_gun
+      takeName: Take 001
+      firstFrame: 328
+      lastFrame: 329
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_fire_gun
+      takeName: Take 001
+      firstFrame: 330
+      lastFrame: 380
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_turn_handle
+      takeName: Take 001
+      firstFrame: 395
+      lastFrame: 485
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_pickup
+      takeName: Take 001
+      firstFrame: 490
+      lastFrame: 600
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_allAnimations
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1800
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_pose_cupped
+      takeName: Take 001
+      firstFrame: 620
+      lastFrame: 630
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_bow_string_grasp
+      takeName: Take 001
+      firstFrame: 660
+      lastFrame: 670
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_hold_stick
+      takeName: Take 001
+      firstFrame: 680
+      lastFrame: 690
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_hold_flashlight
+      takeName: Take 001
+      firstFrame: 705
+      lastFrame: 730
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_walk_motion
+      takeName: Take 001
+      firstFrame: 740
+      lastFrame: 850
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_running_motion
+      takeName: Take 001
+      firstFrame: 870
+      lastFrame: 980
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_idle_motion
+      takeName: Take 001
+      firstFrame: 1000
+      lastFrame: 1140
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_punch
+      takeName: Take 001
+      firstFrame: 1160
+      lastFrame: 1260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_reload_magazine
+      takeName: Take 001
+      firstFrame: 1300
+      lastFrame: 1460
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_remove_magazine
+      takeName: Take 001
+      firstFrame: 1460
+      lastFrame: 1560
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_strike_with_stick
+      takeName: Take 001
+      firstFrame: 1580
+      lastFrame: 1760
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneArm
+        weight: 1
+      - path: BoneArm/BoneWristRoll
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneIndexBase/BoneIndexMid/BoneIndexEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneMiddleBase/BoneMiddleMid/BoneMiddleBaseEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BonePinkyBase/BonePinkyMid/BonePinkyEnd
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle
+        weight: 1
+      - path: BoneArm/BoneWristRoll/BoneHand/BoneRingBase/BoneRingMiddle/BoneRingEnd
+        weight: 1
+      - path: newArm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Bone005
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone004
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone003
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneIndexEnd
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneIndexMid
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneIndexBase
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneMiddleBase
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneMiddleMid
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneMiddleBaseEnd
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneRingBase
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneRingMiddle
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneRingEnd
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BonePinkyBase
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BonePinkyMid
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BonePinkyEnd
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: firstPersonHand(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: newArm
+      parentName: firstPersonHand(Clone)
+      position: {x: -0, y: 0, z: -0.046136472}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BoneArm
+      parentName: firstPersonHand(Clone)
+      position: {x: -0.00161798, y: 0, z: 0.28204337}
+      rotation: {x: -0.5040706, y: -0.4958961, z: -0.49589604, w: 0.5040705}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000005}
+    - name: BoneWristRoll
+      parentName: BoneArm
+      position: {x: -0.15007739, y: 0, z: 0}
+      rotation: {x: -0.0008209348, y: 0.021328643, z: 0.00037373602, w: 0.9997722}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: BoneHand
+      parentName: BoneWristRoll
+      position: {x: -0.10962157, y: -0.000000009536743, z: -5.9604643e-10}
+      rotation: {x: -0.0012784303, y: 0.00907752, z: 0.028773801, w: 0.99954396}
+      scale: {x: 1, y: 1.0000007, z: 1.0000002}
+    - name: BoneRingBase
+      parentName: BoneHand
+      position: {x: -0.08405584, y: -0.0052995966, z: 0.0036466348}
+      rotation: {x: -0.000839495, y: -0.06550063, z: 0.01634635, w: 0.9977183}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000004}
+    - name: BoneRingMiddle
+      parentName: BoneRingBase
+      position: {x: -0.032538142, y: -0.0000000040419397, z: 0}
+      rotation: {x: 0.00048894243, y: 0.0382039, z: 0.012789718, w: -0.99918807}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000004}
+    - name: BoneRingEnd
+      parentName: BoneRingMiddle
+      position: {x: -0.029882783, y: -0.0000000031664962, z: 0}
+      rotation: {x: -0.0005140896, y: -0.081402995, z: -0.006293166, w: 0.9966613}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000005}
+    - name: BonePinkyBase
+      parentName: BoneHand
+      position: {x: -0.07802807, y: -0.025379065, z: 0.00018444538}
+      rotation: {x: -0.0024353915, y: -0.064589195, z: 0.07143114, w: 0.99534917}
+      scale: {x: 1.0000012, y: 1.0000005, z: 0.9999998}
+    - name: BonePinkyMid
+      parentName: BonePinkyBase
+      position: {x: -0.025952995, y: -0.0000000029848888, z: 0}
+      rotation: {x: -0.00064003473, y: 0.09407225, z: 0.028279485, w: -0.99516344}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
+    - name: BonePinkyEnd
+      parentName: BonePinkyMid
+      position: {x: -0.018270195, y: -0.0000000015273687, z: 0}
+      rotation: {x: 0.0026728485, y: -0.06864179, z: 0.038817123, w: 0.9968823}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000007}
+    - name: BoneIndexBase
+      parentName: BoneHand
+      position: {x: -0.08167449, y: 0.036112666, z: 0.0017598629}
+      rotation: {x: 0.010223139, y: 0.08071335, z: 0.10505394, w: -0.991133}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000005}
+    - name: BoneIndexMid
+      parentName: BoneIndexBase
+      position: {x: -0.033583093, y: -0.0000000044064654, z: 3.7252902e-11}
+      rotation: {x: 0.0064635426, y: -0.10259089, z: 0.0097646415, w: 0.9946548}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: BoneIndexEnd
+      parentName: BoneIndexMid
+      position: {x: -0.024610246, y: -0.0000000021385493, z: -7.4505804e-11}
+      rotation: {x: 0.0017248013, y: -0.020295, z: 0.02925409, w: 0.9993645}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000008}
+    - name: BoneMiddleBase
+      parentName: BoneHand
+      position: {x: -0.08577044, y: 0.01596217, z: 0.004762659}
+      rotation: {x: -0.0012902115, y: 0.07205733, z: 0.06142948, w: -0.99550617}
+      scale: {x: 1.0000024, y: 1.000001, z: 1.0000006}
+    - name: BoneMiddleMid
+      parentName: BoneMiddleBase
+      position: {x: -0.035219777, y: -0.000000004461035, z: 0}
+      rotation: {x: 0.0011402224, y: -0.050200447, z: 0.0037007502, w: 0.99873173}
+      scale: {x: 1.0000007, y: 1.0000008, z: 1.0000011}
+    - name: BoneMiddleBaseEnd
+      parentName: BoneMiddleMid
+      position: {x: -0.031798698, y: -0.0000000033667331, z: 0}
+      rotation: {x: 0.00013370937, y: -0.054465253, z: -0.01790137, w: 0.9983552}
+      scale: {x: 1, y: 0.9999997, z: 0.99999946}
+    - name: Bone003
+      parentName: BoneHand
+      position: {x: -0.0033706045, y: 0.030996043, z: -0.01185498}
+      rotation: {x: -0.43044004, y: 0.26266605, z: 0.34867314, w: -0.79003483}
+      scale: {x: 1.0000017, y: 1.0000002, z: 1.0000013}
+    - name: Bone004
+      parentName: Bone003
+      position: {x: -0.040868472, y: -0.000000008137426, z: 0.0000000015716085}
+      rotation: {x: -0.0056713596, y: -0.01801908, z: 0.13368887, w: 0.9908433}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.99999994}
+    - name: Bone005
+      parentName: Bone004
+      position: {x: -0.026484631, y: -0.000000015074626, z: 2.9453118e-10}
+      rotation: {x: 0.0028876117, y: -0.022513965, z: 0.045379627, w: 0.99871194}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

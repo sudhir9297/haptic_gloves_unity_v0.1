@@ -1,0 +1,10 @@
+Thank you for Purchasing the First person hands asset.
+
+This has recently been updated with generic animations that you can animate independantly for unique motions. 
+It is reccommended that you also animate things in a secondary sense by attaching the arms to an game object that will have its own animation, this will helpfor finetuning positioning.
+Animations may also be switched to generic mode to allow for mechanim from the Rig tab.
+Many animation speeds will also need tweaking for better visual performance in your game.
+
+This pack is an update and includes new animations and textures and also a new mixer shader for blending between the blood and non-bloody versions of the texture.
+
+Contact me for more improvements : me@robertramsay.co.uk
